@@ -1,0 +1,15 @@
+{
+  "name": "BirdCam Update",
+  "version": "0.4.6.5",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "improv": false,
+      "parts": [
+        { "path": "firmware/BirdCam_ESP32_v0.4.6.5.ino.bin", "offset": 65536 },
+        { "path": "firmware/BirdCam_ESP32_v0.4.6.5.ino.bin", "offset": 2031616 }
+      ]
+    }
+  ]
+}
